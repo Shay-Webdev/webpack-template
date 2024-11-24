@@ -10,6 +10,9 @@ module.exports = merge(common, {
     path: path.resolve(__dirname, "dist")
   },
   devtool: "eval-source-map",
+  devServer: {
+    watchFiles: ["./src/template.html"],
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/template.html"
