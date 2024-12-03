@@ -1,7 +1,4 @@
 # webpack-template
-<<<<<<< HEAD
-=======
-# webpack-template
 
 install necessary package with the following command:
     npm init -y
